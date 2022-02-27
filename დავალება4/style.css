@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(158, 173, 189);
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content:space-around;
+}
+.menu{
+    display:flex;
+    padding:10px;
+}
+ul img{
+    height:80px;
+}
+li a{
+    color:white;
+    display:block;
+    padding:16px 16px;
+    text-decoration:none;
+    font-size:20px;
+}
+li a:hover{
+    background-color: rgb(158, 173, 189);
+    color: black;
+}
+.active{
+    background-color:rgb(158, 173, 189);
+}
+.block{
+    background-color: black;
+    border-radius: 15px;
+    height:150px;
+    width:150px;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+.block img{
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+}
+.blocks{
+    display:flex;
+    justify-content: space-between;
+}
+.text1{
+    color:white;
+    text-align: center;
+}
+.text2{
+    color:white;
+    text-align: center;
+}
+.text3{
+    color:white;
+    text-align: center;
+}
+.text4{
+    color:white;
+    text-align: center;
+}
+.contact img{
+    height: 400px;
+    width:400px;
+}
+.contact p{
+    margin-left:50px;
+    font-size: 20px;
+    line-height:40px;
+    font-weight:700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    display:flex;
+}
+.home img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height:450px;
+    width:400px;
+    border-radius: 20px;
+}
+.home h3{
+    font-weight: 300;
+}
+.home{
+    display:flex;
+    padding:40px;
+}
+.class2{
+    margin-left:50px;
+}
+.one img{
+    height:500px;
+    width:600px;
+}
+.two img{
+    height:600px;
+    width:500px;
+}
+.about p{
+    font-size:20px;
+    color:black;
+    padding:20px;
+    line-height:40px;
+    font-weight:700;
+}
+.about{
+    display:flex;
+    padding:20px;
+}
+.news img{
+    border-radius: 400px;
+}
+.news p{
+    font-size:20px;
+    color:black;
+    padding:100px;
+    line-height:40px;
+    font-weight:700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.news{
+    display: flex;
+}
