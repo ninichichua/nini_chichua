@@ -58,6 +58,7 @@ body{
     color:white;
     font-weight:600;
     padding:10px;
+    text-align: center;
 }
 a:hover{
     font-weight:bolder;
@@ -156,6 +157,8 @@ p{
     Width:320px;
     Height:6px;
     background-color: #FF707A;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .nomeri{
     display:flex;
@@ -183,11 +186,15 @@ p{
     Width:320px;
     Height:6px;
     background-color:#F5B118;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .blue_rect{
     Width:320px;
     Height:6px;
     background-color:#00AEDC;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .rects{
     display: flex;
@@ -213,6 +220,7 @@ p{
     margin-top:56px;
 }
 
+/* about us */
 
 .schedule p{
     width:481px;
@@ -334,6 +342,9 @@ p{
 .cxrilisavit2{
     margin-left:143px;
 }
+.ragaca{
+    width:476px;
+}
 .satauri{
     font-size: 32px;
     font-weight: 700;
@@ -372,7 +383,6 @@ p{
     margin-left:125px;
 }
 .meore{
-    margin-top: 36px;
     width:460px;
 }
 .comingsoon{
@@ -401,6 +411,7 @@ p{
     display: flex;
     margin-top: 200px;
 }
+/* news */
 .blog{
     margin-top: 120px;
     display:block;
@@ -469,6 +480,8 @@ p{
     display: flex;
     justify-content: space-around;
     margin-top:20px;
+    margin-bottom:64px;
+   /*  margin-top: 73px; */
 }
 .footerleft p{
     margin-left:181px;
@@ -513,6 +526,9 @@ p{
     color:#DBE3E6;
     margin-bottom:40px;
 }
+
+/* kontaqtis gverdi */
+
 .contact{
     font-weight:700;
     font-size:24px;
@@ -541,14 +557,12 @@ p{
 .name{
     width:441px;
     height:56px;
-    background-color: red;
-    border-color: #DADBDD;
     border-radius: 8px;
-    border-width: 1px;
+    border: 1px solid #DADBDD;
     margin: auto;
 }
 .name p{
-    color:#000000;
+    color:rgba(0, 0, 0, 0.4);
     font-weight:500;
     font-size:14px;
     padding-top:18px;
@@ -557,15 +571,13 @@ p{
 .email{
     width:441px;
     height:56px;
-    background-color: red;
-    border-color: #DADBDD;
     border-radius: 8px;
-    border-width: 1px;
+    border: 1px solid #DADBDD;
     margin: auto;
     margin-top: 12px;
 }
 .email p{
-    color:#000000;
+    color:rgba(0, 0, 0, 0.4);
     font-weight:500;
     font-size:14px;
     padding-top:18px;
@@ -574,21 +586,20 @@ p{
 .type{
     width:441px;
     height:225px;
-    background-color:red;
     border-radius: 8px;
-    border-width: 1px;
+    border: 1px solid #DADBDD;
     margin: auto;
     margin-top: 12px;
 }
 .type p{
-    color:#000000;
+    color:rgba(0, 0, 0, 0.4);
     font-weight:500;
     font-size:14px;
     padding-top:18px;
     padding-left:18px;
 }
 .kubiki{
-    background-color: red;
+    border:1px solid #DADBDD;
     width:24px;
     height:24px;
     border-radius:6px;
@@ -598,7 +609,7 @@ p{
 .okay p{
     font-size: 16px;
     line-height:24px;
-    color:#000000;
+    color:rgba(0, 0, 0, 0.8);
     margin-left:18px;
 }
 .okay{
