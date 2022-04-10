@@ -38,7 +38,6 @@ body{
     padding-top:24px;
     padding-bottom:24px;
     width:100%;
-    position: fixed;
     top:0;
     background-color: #E5E5E5;
 }
@@ -198,7 +197,7 @@ p{
 }
 .rects{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 48px;
 }
 .start p{
@@ -218,6 +217,149 @@ p{
     margin:auto;
     margin-bottom: 96px;
     margin-top:56px;
+}
+.featuress p{
+    font-weight:700;
+    font-style:normal;
+    font-size:54px;
+    text-align:center;
+    color:#190E2F;
+}
+.saati{
+    width:274px;
+}
+.saati p{
+    width:274px;  
+}
+.scheduling{
+    font-weight:600;
+    font-size:20px;
+    line-height: 30px;
+    color:#190E2F;
+    width:268px;
+} 
+.everything{
+    font-weight:400;
+    font-size:16px;
+    line-height: 26px;
+    color:#190E2FCC;
+}
+.find{
+    font-weight:600;
+    font-size:16px;
+    line-height: 24px;
+    color:#00AEDC;
+}
+.zedaa{
+    justify-content: space-evenly;
+    display:flex;
+}
+.qvedaa{
+    justify-content: space-evenly;
+    display:flex;
+    margin-top: 70px;
+}
+.gaertianebuli{
+    width:270px;
+    height:320px;
+    margin-left:88px;
+    margin-top:60px;
+}
+.theonly{
+    color:#190E2F;
+    line-height:65px;
+    font-weight:700 ;
+    font-size:54px;
+}
+.envitehas{
+    color:#190E2FCC;
+    font-weight:400;
+    font-size:16px;
+    line-height:16px;
+}
+.joinnow{
+    font-weight:700 ;
+    font-size:20px;
+    line-height:30px;
+    color:#FF707A;
+    border-bottom-color: #FF707A;
+}
+.tqst{
+    width:564px;
+}
+.ertoba{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.tqsts{
+    width:518px;
+}
+.sxva{
+    font-weight:500;
+    font-size:20px;
+    line-height:34px;
+    color:#2F1E2D;
+}
+.benefits{
+    font-weight:700 ;
+    font-size:54px;
+    line-height:65px;
+    color:#190E2F;
+}
+.ertoba2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+.trusted{
+    font-weight:700 ;
+    font-size:54px;
+    line-height:64px;
+    color:#190E2F;
+    margin-top:30px;
+    text-align: center;
+}
+.homediv p{
+    text-align: center;
+    width:618px;
+    margin:auto;
+}
+.usingitforfree{
+    color:#190E2F;
+    font-size:48px;
+    font-weight:700 ;
+    line-height:48px;
+}
+.setitup{
+    color:#190E2F;
+    font-size:20px;
+    font-weight:600 ;
+    line-height:34px;
+}
+.once{
+    color:#190E2F;
+    font-size:20px;
+    font-weight:400;
+    line-height:34px;
+}
+.what{
+    color:#F77881;
+    font-size:20px;
+    font-weight:600 ;
+    line-height:34px;
+}
+.manage{
+    color:#190E2FCC;
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+}
+.beta{
+    color:#190E2FCC;
+    font-size:16px;
+    font-weight:700 ;
+    line-height:24px;
 }
 
 /* about us */
@@ -337,7 +479,7 @@ p{
 .samantha img{
     height:400px;
     width:483px;
-    margin-left:125px;
+   margin-left:125px;
 }
 .cxrilisavit2{
     margin-left:143px;
@@ -370,6 +512,9 @@ p{
     color:#190E2F;
 }
 .cxrilisavit2{
+    width:470px;
+}
+.cxrilisavit3{
     width:470px;
 }
 .warw{
@@ -408,8 +553,24 @@ p{
     margin-left:143px;
 }
 .flex3{
+    margin-top:200px;
     display: flex;
-    margin-top: 200px;
+    justify-content: space-evenly;
+}
+.flex4{
+    margin-top:200px;
+    display: flex;
+}
+
+.flex3 img{
+    width:480px;
+}
+.flex4 img{
+    width:480px;
+}
+.flex5{
+    margin-top:200px;
+    display: flex;
 }
 /* news */
 .blog{
